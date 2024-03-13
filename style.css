@@ -3,6 +3,11 @@
     color: #9acd32;
     font-family: Arial, sans-serif;
 }
+header{
+    background-color: #333; /* cor de fundo do cabeçalho */
+    padding: 10px 0;
+    text-align: center; /* centraliza os botões */
+}
 button{
     background-color: #333;/*cor de fundo do botão*/
     color: #9acd32; /*cor do texto do botão*/
