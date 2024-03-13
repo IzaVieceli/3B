@@ -1,0 +1,218 @@
+/* Reset de estilos padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo padrão do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+/* Estilo para o cabeçalho da página */
+header {
+    background-image: linear-gradient(135deg, #eea640 0, #f59c40 7.14%, #fa9141 14.29%, #ff8444 21.43%, #ff7547 28.57%, #ff644c 35.71%, #ff5052 42.86%, #ff3858 50%, #fb1160 57.14%, #f50069 64.29%, #ed0075 71.43%, #e40082 78.57%, #d80090 85.71%, #ca009e 92.86%, #b900ae 100%);
+    
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    /* Torna o cabeçalho fixo na parte superior da tela. */
+    top: 0;
+    /* Define a posição superior como 0 para fixar o cabeçalho no topo. */
+    width: 100%;
+    /* Define a largura como 100% para ocupar toda a largura da tela. */
+    z-index: 100;
+    /* Define uma pilha de z-index para garantir que o cabeçalho esteja acima de outros elementos. */
+}
+
+#header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    /* Adiciona margem superior para compensar a altura do cabeçalho fixo */
+    /* Certifique-se de ajustar a altura de acordo com o tamanho do seu cabeçalho. */
+    margin-top: 80px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 10px 0;
+    font-family: 'Anton', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Estilo para o rodapé da página */
+footer {
+    background-image: linear-gradient(135deg, #eea640 0, #f59c40 7.14%, #fa9141 14.29%, #ff8444 21.43%, #ff7547 28.57%, #ff644c 35.71%, #ff5052 42.86%, #ff3858 50%, #fb1160 57.14%, #f50069 64.29%, #ed0075 71.43%, #e40082 78.57%, #d80090 85.71%, #ca009e 92.86%, #b900ae 100%);
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    
+}
+
+.tenism {
+    width: 50px;
+}
+
+
+p{
+    color: #6055da;
+    font-family: 'Anton', sans-serif;
+    font-size: 16px;
+}
+
+h1{
+    color: #4e42d4;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.nome{
+    color: #fff;
+}
+
+.logo {
+    max-width: 100%; /* Garante que a largura máxima seja relativa ao contêiner pai */
+    height: auto; /* Mantém a proporção original da imagem */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* Adicione uma media query para ajustar o tamanho da logo em telas menores */
+@media only screen and (max-width: 600px) {
+    .logo {
+        max-width: 80%; /* Pode ajustar conforme necessário para telas menores */
+    }
+}
+
+
+.fim{
+    color: #fff;
+}
+
+.map-container {
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid #a41313; /* Cor e espessura da borda */
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 200px; /* Altura desejada */
+    border: none; /* Remover a borda padrão do iframe */
+}
+
+.cartao {
+    display: flex;
+    flex-direction: row; /* Exibe os elementos lado a lado */
+    align-items: center;
+    text-align: center;
+    margin-top: 15px; /* Adiciona espaço acima da div cartao */
+   
+}
+
+.oferta {
+    max-width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #a41313; /* Cor e espessura da borda */
+}
+
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.mainzao {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.produtoss {
+    width: 40%; /* Ajuste a largura conforme necessário */
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    border: 2px solid #a41313; /* Cor e espessura da borda */
+}
+
+.produtoss:hover {
+    transform: scale(1.05);
+}
+
+.ofertass {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.detalhes-produto {
+    padding: 15px;
+}
+
+.preco {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.btn-comprar {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-comprar:hover {
+    background-color: #45a049;
+}
