@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background: linear-gradient(to bottom, #00ff00 0%, #008000 100%); /* gradiente de verde claro a verde escuro */
     color: #9acd32; /* esta é a cor verde amarelado */
     font-family: Arial, sans-serif;
     margin: 0;
@@ -10,10 +10,11 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: rgba( 0, 0, 0, 0.5); /*cabeçalho semi-transparente para sobrepor o gradiente */
 }
 .titulo h1{
     margin: 0;
+    color: white; /* titulo em branco para contraste */
 }
 .botoes button {
     background-color: #444; /*cor de fundo do botão */
