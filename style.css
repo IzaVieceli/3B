@@ -1,7 +1,7 @@
 body{
-    background-color: black;
+    background: linear-gradient(to botton, #00ff00 0%, #008000 100%);
     color: #9acd32; /* esta é a cor verde amarelado */
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans=serif;
     margin: 0;
     padding: 0;
 }
@@ -10,19 +10,18 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #333 /*cabeçalho semi-transparente para sobrepor o gradiente */
 }
 .titulo h1{
     margin: 0;
-    color: white; /* titulo em branco para contraste */
+    color: white; /*Título em branco para contraste*/
 }
-.botoes button {
-    background-color: #444; /*cor de fundo do botão */
-    color: #94cd32; /* cor de texto do botão */
+.botoes button{
+    background-color: #444; /*cor de fundo do botão*/
+    color: #9acd32; /*cor do texto do botão*/
     padding: 10px 20px;
     border: none;
     cursor: pointer;
 }
-.botoes button:hover {
-    background-color: #555; / cor de fundo do botão ao passar o mouse */
+.botoes button:hover{
+    background-color: #555; /*cor de fundo do botão ao passar o mouse*/
 }
