@@ -1,8 +1,8 @@
-.principal{
-    background-color: black;;
+body{
+    background-color: black;
+    color: #9acd32;
+    font-family: Arial, sans-serif;
 }
-
-.titulo{
-    text-align: center;
-    color: greenyellow;
+a {
+    color: #9acd32;
 }
