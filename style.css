@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(to bottom, #00ff00 0, #008000 100%);
+    background-image: linear-gradient(to bottom, #00ff00 0, #008000 100%);
     color: #9acd32; /* esta é a cor verde amarelado */
     font-family: Arial, sans=serif;
     margin: 0;
