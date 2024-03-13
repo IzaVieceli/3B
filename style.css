@@ -1,27 +1,21 @@
-.principal{
-    background-image: linear-gradient(135deg, #95e495 0, #96e196 7,18%, #89cc89 14,36%, #71c571 28,62%)
-    color: #9acd32;
+body {
+    background: linear-gradient(to bottom, lightgreen, darkgreen);
+    color: white;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
 }
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header {
+    text-align: center;
+    padding: 20px;
+}
+.button {
+    display: inline-block;
+    background-color: lightgreen;
+    color: black;
     padding: 10px 20px;
-    background-color: #333;
+    margin: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
 }
-.titulo h1{
-    margin: 0;
-}
-.botoes button{
-    background-color: #444;
-    color: #95e495;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-}
-.botoes button:houver {
-    background-color: #555;
+.button:hover {
+    background-color: darkgreen;
 }
