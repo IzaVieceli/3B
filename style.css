@@ -3,24 +3,3 @@ body{
     font-family: Arial, sans=serif;
     margin: 0;
     padding: 0;
-}
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-}
-.titulo h1{
-    margin: 0;
-    color: white; /* só para o contraste*/
-}
-.botoes button{
-    background-color: #444; /*cor de fundo do botão*/
-    color: #9acd32; /*cor do texto do botão*/
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-}
-.botoes button:hover{
-    background-color: #555; /*cor de fundo do botão ao passar o mouse*/
-}
