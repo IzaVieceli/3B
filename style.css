@@ -13,7 +13,6 @@ header{
 }
 .titulo h1{
     margin: 0;
-    color: white; /*Título em branco para contraste*/
 }
 .botoes button{
     background-color: #444; /*cor de fundo do botão*/
