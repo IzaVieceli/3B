@@ -10,7 +10,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: rgba( 0, 0, 0, 0.5); /*cabeçalho semi-transparente para sobrepor o gradiente */
+    background-color: #333 /*cabeçalho semi-transparente para sobrepor o gradiente */
 }
 .titulo h1{
     margin: 0;
