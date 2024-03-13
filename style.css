@@ -6,18 +6,22 @@
     padding: 0;
 }
 header{
-    background-color: #333; /* cor de fundo do cabeçalho */
-    padding: 10px 0;
-    text-align: center; /* centraliza os botões */
-}
-button{
-    background-color: #333;/*cor de fundo do botão*/
-    color: #9acd32; /*cor do texto do botão*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px 20px;
-    margin: 0 10px;
+    background-color: #333;
+}
+.titulo h1{
+    margin: 0;
+}
+.botoes button{
+    background-color: #444;
+    color: #95e495;
+    padding: 10px 20px;
     border: none;
     cursor: pointer;
 }
-button:hover{
-    background-color: #555; /* Cor de fundo do botão ao passar o mouse*/
+.botoes button:houver {
+    background-color: #555;
 }
