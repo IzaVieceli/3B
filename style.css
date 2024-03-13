@@ -3,6 +3,8 @@ body{
     color: #9acd32;
     font-family: Arial, sans-serif;
 }
-a {
-    color: #9acd32;
+button{
+    background-color: #333;/*cor de fundo do botão*/
+    color: #9acd32; /*cor do texto do botão*/
+    padding: 10px;
 }
