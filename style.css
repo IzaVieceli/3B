@@ -6,5 +6,11 @@ body{
 button{
     background-color: #333;/*cor de fundo do botão*/
     color: #9acd32; /*cor do texto do botão*/
-    padding: 10px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #555; /* Cor de fundo do botão ao passar o mouse*/
 }
