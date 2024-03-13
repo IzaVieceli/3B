@@ -2,6 +2,8 @@
     background-color: black;
     color: #9acd32;
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #333; /* cor de fundo do cabeçalho */
@@ -12,7 +14,7 @@ button{
     background-color: #333;/*cor de fundo do botão*/
     color: #9acd32; /*cor do texto do botão*/
     padding: 10px 20px;
-    margin: 5px;
+    margin: 0 10px;
     border: none;
     cursor: pointer;
 }
