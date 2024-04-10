@@ -1,3 +1,44 @@
+
+body{
+    background-color: black;
+    color: #9acd32;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333; /*cor de fundo do cabeçalho*/
+}
+.titulo h1{
+    margin: 0;
+}
+.botoes button{
+    background-color: #444; /*cor de fundo do botão*/
+    color: #9acd32; /*cor de texto do botão*/
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.botoes button:hover{
+    background-color: #555; /*cor de fundo do botão ao passar o mouse*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 h1{
     color: aquamarine;
     text-align: center;
