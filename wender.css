@@ -1,95 +1,45 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tomate Cereja - Dicas de Cultivo</title>
+    <title>Informações sobre plantas</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <header>
-        <div class="titulo">
-            <h1>Clóvis</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="adubos.html">Adubos</a></li>
-                <li><a href="agrotoxicos.html">Agrotóxicos</a></li>
-                <li><a href="receitas.html">Receitas</a></li>
-                <li><a href="plantacoes.html">Plantações</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section class="conteudo">
-        <h2>TOMATE CEREJA</h2>
-        <p>Para cultivar tomates cereja, é essencial garantir que eles recebam luz solar direta, pois adoram luz. Plante-os durante o verão para obter os melhores resultados.</p>
-        <p><strong>OBS:</strong> É IMPORTANTE PLANTAR NA ÉPOCA DE VERÃO.</p>
-        <img src="tomate.jpg" alt="Tomate Cereja">
-    </section>
+<header>
+    <div class="titulo">
+        <h1>Clóvis</h1>
+    </div>
+    <div class="botoes">
+        <button onclick="window.location.href='leonardo.html'">Adubos</button>
+        <button onclick="window.location.href='liliah.html'">Agrotóxicos</button>
+        <button onclick="window.location.href='melissa.html'">Receitas</button>
+        <button onclick="window.location.href='wender.html'">Plantações</button>
+    </div>
+</header>
+
+<section id="tomate">
+    <h1>TOMATE CEREJA </h1>
+    <p>Ter um lugar reservado para que ela receba luz solar, elas adoram luz e sem a luz elas acabam murchando ou
+        morrendo, e importante plantar na época de verão
+        OBS : É IMPORTANTE PLANTAR NA ÉPOCA DE VERÃO.</p>
+</section>
+
+<section id="boldo">
+    <h1>BOLDO =</h1>
+    <p>O mais recomendado é que ela receba várias horas de luz solar, pois o boldo necessita de uma boa luz solar.
+        OBS : A planta exige melhor desenvolvimento em regiões com alta temperatura E NÃO TOLERA FRIO EXTREMO.
+    </p>
+</section>
+
+<section id="pimenta">
+    <h1>PIMENTA =</h1>
+    <p>Essa planta necessita de uma luz solar intensa para conseguir se desenvolver, por isso coloque ela em um local
+        com bastante luz solar </p>
+</section>
+
 </body>
-
 </html>
-/* styles.css */
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-
-.titulo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-section.conteudo {
-    max-width: 800px;
-    margin: 20px auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-}
-
-section.conteudo h2 {
-    color: #333;
-}
-
-section.conteudo p {
-    color: #666;
-    line-height: 1.6;
-}
-
-section.conteudo img {
-    max-width: 100%;
-    display: block;
-    margin-top: 20px;
-    border-radius: 8px;
-}
+    
