@@ -24,3 +24,6 @@ header{
 .botoes button:hover{
     background-color: white; /*cor de fundo do botão ao passar o mouse*/
 }
+.titulo{
+    color: blue;
+}
