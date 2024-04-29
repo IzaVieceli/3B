@@ -31,4 +31,7 @@ header{
     color: blue;
     text-align: center;
     padding: 20px 30px;
+    animation-direction: reverse;
+    animation-delay: 1ms;
+    animation-duration: 2ms;
 }
