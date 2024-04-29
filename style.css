@@ -15,12 +15,12 @@ header{
     margin: 0;
 }
 .botoes button{
-    background-color: white; /*cor de fundo do botão*/
-    color: #9acd32; /*cor de texto do botão*/
+    background-color: black; /*cor de fundo do botão*/
+    color: blue; /*cor de texto do botão*/
     padding: 10px 20px;
     border: none;
     cursor: pointer;
 }
 .botoes button:hover{
-    background-color: black; /*cor de fundo do botão ao passar o mouse*/
+    background-color: white; /*cor de fundo do botão ao passar o mouse*/
 }
